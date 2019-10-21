@@ -28,9 +28,14 @@ class MultiplicationCircleController {
 
 class MultiplicationCircleModel {
 
-    List lines = []
+    List<Line> lines = Collections.EMPTY_LIST
     int segmentCount = 10
+    int tableBase = 2
 
     // TODO: Add a property tableBase such that we can modify and refer to it
 
+}
+
+class Line {
+    double x1, y1, x2, y2
 }

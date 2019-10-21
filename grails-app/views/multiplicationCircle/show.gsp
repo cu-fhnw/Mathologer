@@ -20,8 +20,11 @@
             var input = document.getElementById(valueName);
             input.value = parseInt(input.value) + 1;
         }
+        function decrease(valueName) {
+            var input = document.getElementById(valueName);
+            input.value = parseInt(input.value) - 1;
+        }
 
-        // TODO: Add a function to decrease the value
 
     </script>
 </head>
